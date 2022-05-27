@@ -1,7 +1,7 @@
 {
   "name": "twin.semi",
   "version": "0.1.0",
-  "description": "A color preset based on semi design",
+  "description": "A tailwind color preset for Semi Design",
   "keywords": [
     "tailwind preset",
     "semi design"
