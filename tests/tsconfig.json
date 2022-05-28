@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "twin.semi": ["../src/index.ts"],
+      "twin.semi/*": ["../src/*"]
+    }
+  }
+}

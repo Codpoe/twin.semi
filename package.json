@@ -25,7 +25,9 @@
     "prepare": "husky install",
     "dev": "tsc -w",
     "build": "rimraf dist && tsc",
-    "gen-variables": "esno ./scripts/gen-variables.ts"
+    "gen-variables": "esno ./scripts/gen-variables.ts",
+    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "test": "vitest"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --fix"
@@ -42,6 +44,7 @@
     "lint-staged": "^12.4.2",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.2",
+    "vitest": "^0.12.9"
   }
 }
