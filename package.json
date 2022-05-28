@@ -27,6 +27,7 @@
     "build": "rimraf dist && tsc",
     "gen-variables": "esno ./scripts/gen-variables.ts",
     "lint": "eslint --ext js,jsx,ts,tsx .",
+    "check-type": "tsc --noEmit",
     "test": "vitest"
   },
   "lint-staged": {
