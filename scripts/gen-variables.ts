@@ -13,7 +13,7 @@ const outputPath = path.resolve(__dirname, '../src/variables.ts');
 
 const ignorePrefix = ['--semi-shadow', '--semi-border-radius'];
 
-function uniq(data: string[] | null): string[] {
+function uniq(data: string[] | null | undefined): string[] {
   return [...new Set(data)];
 }
 

@@ -242,6 +242,8 @@ export const theme = [
   '--semi-color-text-1',
   '--semi-color-text-2',
   '--semi-color-text-3',
+  '--semi-color-highlight-bg',
+  '--semi-color-highlight',
 ] as const;
 
 export type ThemeCssName = typeof theme[number];
